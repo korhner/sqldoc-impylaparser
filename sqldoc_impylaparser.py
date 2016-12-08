@@ -87,4 +87,4 @@ class ImpylaParser(Parser):
 
 
 def get_component():
-    return ImpylaParser.__class__
+    return ImpylaParser
