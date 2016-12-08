@@ -7,7 +7,7 @@ import pytest
 from impala.dbapi import connect
 
 from sqldoc.metadata import metadata
-from sqldoc_impylaparser.sqldoc_impylaparser import ImpylaParser, Driver
+from sqldoc_impylaparser import ImpylaParser, Driver
 
 impala_env_var = 'IMPALA_URL'
 
